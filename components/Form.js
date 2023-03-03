@@ -13,7 +13,6 @@ const Form = () => {
       method: "POST",
       body: JSON.stringify(formDataObj)
     })
-
     router.push('/')
   }
 

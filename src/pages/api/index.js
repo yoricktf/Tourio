@@ -1,7 +1,6 @@
 import dbConnect from "../../../db/connect"
 import Attraction from "../../../db/models/Attraction"
 
-
 export default async function handler(req, res) {
   dbConnect()
 

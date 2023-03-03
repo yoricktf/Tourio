@@ -7,6 +7,7 @@ const newAttraction = () => {
       <Button
         text={'< Back'}
         type={'back'}
+        pageURL={'/'}
       />
       <Form />
     </>

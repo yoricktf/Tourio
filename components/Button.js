@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
-const Button = ({ text, type }) => {
+const Button = ({ text, type, pageURL }) => {
   return (
-    <Link className={type} href={'/newAttraction'}>{text}</Link>
+    <Link className={type} href={`${pageURL}`} > {text}</Link >
   )
 }
 

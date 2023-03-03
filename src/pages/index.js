@@ -40,7 +40,8 @@ export default function Home() {
         })}
         <Button
           text={'+Place'}
-          type={'addPlace'} />
+          type={'addPlace'}
+          pageURL={'/newAttraction'} />
       </main>
     </>
   )
